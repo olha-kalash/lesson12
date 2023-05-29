@@ -1,7 +1,6 @@
-@import url('./_normalize.css');
-@import url('./_fonts.css');
+@import url('./normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=Staatliches&family=Tourney:wght@600&display=swap');
-@import url('./_vars.css');
+@import url('./vars.css');
 
 strong {
     font-weight: 700;
