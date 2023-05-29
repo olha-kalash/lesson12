@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson_12(Fonts and Position)</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- 1. В Head через посилання  -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <span class="lang">ENG</span>
+                <a class = 'header__menu' href="">Documentation</a>
+                <span class = 'header__menu'>/</span>
+                <a class = 'header__menu' href="">Who's using</a>
+            </nav>
+            <img class="header__logo" src="assets/img/company-logo-black.svg" alt="">
+        </header>        
+        <div class="container">            
+        <div class="bg_container"></div>
+            <aside class="aside">
+                <nav class="aside__menu">
+                    <a class="aside__item title_text" href="">Introduction</a>
+                    <a class="aside__item title_text" href="">core components</a>
+                    <a class="aside__item title_text" href="">react fundamentals</a>
+                    <a class="aside__item title_text" href="">handling text input</a>
+                </nav>
+            </aside>
+            <main class="main">
+                <section class="content">
+                    <article class="article">
+                        <h2 class="title title_text">
+                            Introduction
+                            <span class="sup-title">Chapter 1</span>
+                        </h2>
+                        <p class="text">Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've moved to their own section. Continue reading for an introduction to the documentation, Native Components, React, and more!</p>
+                    </article>
+                    <article class="article">
+                        <h2 class="title title_text">
+                            Core components
+                            <span class="sup-title">Chapter 2</span>
+                        </h2>
+                        <p class="text">React Native is an open source framework for building Android and iOS applications using React and the app platform’s native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components: bundles of reusable, nestable code. You can learn more about React in the next section. But first, let’s cover how components work in React Native.</p>
+                    </article>
+                </section>
+                <article class="article">
+                    <h2 class="title title_text">
+                        react fundamentals
+                        <span class="sup-title">Chapter 3</span>
+                    </h2>
+                    <p class="text">React Native runs on React, a popular open source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.</p>
+                    <p class="text">We’re going to cover the core concepts behind React:</p>
+                    <p class="text">
+                        <strong>+ components.</strong>
+                        The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.
+                    </p>
+                    <p class="text">
+                        <strong>+ JSX.</strong> React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so:
+                        <br>
+                        <span class="grey">&lt;Text&gt;Hello, I am your cat!&lt;/Text&gt;</span>
+                        .
+                    </p>
+                    <p class="text">
+                        The React docs have a comprehensive guide to JSX you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a name for the cat, name, and embedding it with curly braces inside
+                        <Text></Text>
+                    </p>
+                    <p class="text">
+                        <strong>+ props.</strong> Props is short for “properties”.
+                    </p>
+                    <p class="text">
+                        <strong>+ state.</strong> While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!
+                    </p>
+                </h2>
+                <p class="text">Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've moved to their own section. Continue reading for an introduction to the documentation, Native Components, React, and more!</p>
+            </article>
+            <article class="article">
+                <h2 class="title title_text">
+                    handling text input
+                    <span class="sup-title">Chapter 4</span>
+                </h2>
+                <p class="text">TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.</p>
+                <p class="text">For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is written the same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".</p>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
